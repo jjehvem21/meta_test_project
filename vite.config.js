@@ -5,6 +5,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  base: '/meta_test_project/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')

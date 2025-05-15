@@ -37,7 +37,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/'),
+  history: createWebHistory('/meta_test_project/'),
   routes,
   // 滚动行为控制
   // scrollBehavior(to, from, savedPosition) {
