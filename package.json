@@ -1,0 +1,25 @@
+{
+  "name": "my-test-vue-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amirafa/vue3-pull-to-refresh": "^1.2.7",
+    "@types/node": "^22.15.18",
+    "axios": "^1.9.0",
+    "mockjs": "^1.1.0",
+    "v3-infinite-loading": "^1.3.2",
+    "vue": "^3.5.13",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.5"
+  }
+}
